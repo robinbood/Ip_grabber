@@ -26,7 +26,7 @@ const App = () => {
     }
     try {
       const locationData = await axios.get("http://ip-api.com/json/").then(response => response.data());
-      const greetingData = await axios.get(`https://hellosalut.stefanbohacek.dev/?lang=${locationData.query}`).then(response => response.data());
+      const greetingData = await axios.get(`https://hellosalut.stefanbohacek.dev/?lang=${locationData.country}`).then(response => response.data());
       setHello(greetingData.data.hello);
       setNotification(`${hello} ${username}, you have successfully logged in!`);
     // eslint-disable-next-line @typescript-eslint/no-unused-vars
