@@ -2,5 +2,5 @@
 What it does is <hr>
 it uses an api to get your api and everything related to it <hr>
 This really motivated me <hr>
-One of my biggest dreams was to create something like <a href="https://grabify.link/">grabify</a>
+One of my biggest dreams was to create something like <a href="https://grabify.link/" target="_blank" rel="no referrer no logger" >grabify</a>
 </h3>
